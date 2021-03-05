@@ -1,0 +1,64 @@
+#banner{
+height:250px;
+width: 100%;
+
+}
+#nav:relative{
+top:240px;
+}
+#nav a{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: black;
+ 
+}
+#nav a:hover{
+ background-color: LightGrey;
+ color: black;
+}
+#nav a.active{
+ background-color: green;
+ color: white;
+}
+#div1{
+width: 500px;
+height: 300px;
+position:absolute;
+left: 50px;
+top:350px;
+padding: 10px;
+border: solid 5px;
+border-radius: 20%;
+
+}
+
+#div2{
+width: 500px;
+height: 300px;
+position: absolute;
+top: 350px;
+right:50px;
+padding: 10px;
+border: solid 5px;
+border-radius: 20%;
+}
+html, body{	
+margin: 0;
+padding: 0;
+border: 0;
+}
+body{
+background-color: white;
+}
+#footer{
+position:absolute;
+top:700px;
+width: 100%;
+background-color:black;
+color: white;
+
+}
